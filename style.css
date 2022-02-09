@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display";
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+}
+
+main {
+    height: 100vh;
+    width: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#head {
+    display: flex;
+    background-color: white;
+    width: 25em;
+    height: 35em;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+#img {
+    display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(32, 32, 32);
+    font-size: 24px;
+}
+
+h2 {
+    display: flex;
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+
+#music {
+    display: flex;
+    float: left;
+    padding: 20px;
+}
+
+#annual-plan {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+    gap: 15px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin: auto;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+}
+
+#b {
+    display: flex;
+    color: rgb(78, 78, 78);
+}
+
+.c {
+    display: flex;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-decoration: none underline;
+    color: rgb(85, 0, 141);
+}
+.c:hover {
+    display: flex;
+    color: rgb(85, 0, 141);
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button1 {
+    display: flex;
+    height: 40px;
+    width: 25em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+}
+
+.button2 {
+    display: flex;
+    height: 40px;
+    width: 25em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: ;
+    color: rgb(71, 71, 71);
+    background-color: rgb(255, 255, 255);
+}
+
